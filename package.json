@@ -1,6 +1,6 @@
 {
     "name": "@nix2/prettier-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Nix2 Prettier Config",
     "main": "prettier.config.js",
     "repository": "https://github.com/nix2io/package-template.git",
@@ -8,13 +8,6 @@
     "license": "MIT",
     "private": false,
     "prettier": "./prettier.config.js",
-    "scripts": {
-        "format": "prettier --write ./src/**",
-        "test-format": "prettier --check ./src/**",
-        "test": "mocha -r ts-node/register tests/**",
-        "lint": "eslint src/**",
-        "prepublish": "tsc"
-    },
     "peerDependencies": {
         "prettier": "2.1.2"
     },
