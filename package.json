@@ -1,19 +1,19 @@
 {
-    "name": "@nix2/package-name",
+    "name": "@nix2/prettier-config",
     "version": "1.0.0",
-    "description": "PACKAGE_DESCRIPTION",
+    "description": "Nix2 Prettier Config",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "repository": "https://github.com/nix2io/package-template.git",
-    "author": "Name <name@nix2.io>",
+    "author": "Max Koon <maxk@nix2.io>",
     "license": "CC-BY-1.0",
     "private": false,
+    "prettier": "@nix2/prettier-config",
     "scripts": {
         "format": "prettier --write ./src/**",
         "test-format": "prettier --check ./src/**",
         "test": "mocha -r ts-node/register tests/**",
         "lint": "eslint src/**",
-        "mk-docs": "typedoc --name \"Documentation\" && touch ./docs/.nojekyll",
         "prepublish": "tsc"
     },
     "devDependencies": {
