@@ -1,6 +1,6 @@
 {
     "name": "@nix2/prettier-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Nix2 Prettier Config",
     "main": "prettier.config.js",
     "repository": "https://github.com/nix2io/package-template.git",
