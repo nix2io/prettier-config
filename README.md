@@ -12,7 +12,7 @@
 # Installation
 
 ```sh
-yarn add @nix2/prettier-config
+yarn add -D @nix2/prettier-config
 ```
 
 # Usage
